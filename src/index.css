@@ -1,0 +1,46 @@
+/* index.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Vibrant Colors */
+.primary-color {
+  color: #007bff;
+}
+
+.secondary-color {
+  color: #6c757d;
+}
+
+.success-color {
+  color: #28a745;
+}
+
+.danger-color {
+  color: #dc3545;
+}
+
+.warning-color {
+  color: #ffc107;
+}
+
+.info-color {
+  color: #17a2b8;
+}
+
+.light-color {
+  color: #f8f9fa;
+}
+
+.dark-color {
+  color: #343a40;
+}

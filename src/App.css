@@ -1,0 +1,75 @@
+/* App.css */
+
+/* Navbar Styles */
+.navbar {
+  background-color: #003366; /* Dark Blue */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #ffffff; /* White */
+}
+
+.navbar .nav-link:hover {
+  color: #cccccc; /* Light Grey on Hover */
+}
+
+/* Form Styles */
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* List Group Styles */
+.list-group-item {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.list-group-item h5 {
+  color: #003366; /* Dark Blue */
+}
+
+.list-group-item p {
+  color: #6c757d; /* Secondary Text Color */
+}
+
+/* About Section Styles */
+.about-description {
+  font-family: 'Arial', sans-serif;
+  color: #000000; /* Black */
+}
+/* Infinite Enlarge and Get Smaller Text Transition */
+@keyframes enlargeShrink {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+}
+
+.enlarge-shrink-text {
+  display: inline-block;
+  animation: enlargeShrink 3s infinite;
+}
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.5); /* Lighten the border */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
