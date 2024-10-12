@@ -1,1 +1,1 @@
-# updatedSocialPost
+# updatedSocialPost Example social media app API CRUD user can make add and delete posts there is an about page explaining how to use the app in the navbar. https://670b08a5e8cedbc3e96fcc5b--meek-bonbon-29e24e.netlify.app/
